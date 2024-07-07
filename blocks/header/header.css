@@ -25,7 +25,7 @@
 }
 
 .header__container_left {
-  min-width: calc(100% - 250px);
+  min-width: calc(100% - 180px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +36,7 @@
   width: 230px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   transition: all .5s linear;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .header__phone {
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 500;
   color: #000000;
   line-height: 1;
@@ -79,7 +79,7 @@
 
 .header__lang {
   color: #000000;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 500;
   line-height: 1;
   margin: 0 10px;
@@ -90,11 +90,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  border: 2px solid #2A292831;
-  border-radius: 7px;
   transition: all .5s linear;
   padding: 1px 0;
+  gap: 5px;
 }
 
 .header__navbar-icon {
@@ -152,6 +150,7 @@
   .header__navbar-icon {
     width: 20px;
     height: 20px;
+
   }
 
   .icon_email {
