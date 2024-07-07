@@ -118,8 +118,8 @@
 
 
 @media screen and (max-width: 640px) {
-  .header__container {
-    /*border: 1px solid yellow;*/
+  .header {
+    padding: 0;  
   }
 
   .header__container_left {
@@ -132,7 +132,6 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-
   }
 
   .header__logo {
@@ -151,14 +150,14 @@
   }
 
   .header__navbar-icon {
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     margin-bottom: 1px;
   }
 
   .icon_email {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
   }
 
   .header__lang {
