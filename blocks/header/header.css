@@ -119,7 +119,7 @@
 
 @media screen and (max-width: 640px) {
   .header {
-    padding: 0;  
+    padding: 5px;  
   }
 
   .header__container_left {
