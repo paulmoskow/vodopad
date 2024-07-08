@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 640px) {
   .main__about {
-    padding: 50px 0;
+    padding: 50px 0 30px;
   }
 }
