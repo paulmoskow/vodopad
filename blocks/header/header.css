@@ -6,7 +6,6 @@
   justify-content: center;
   box-shadow: 0 1px 4px #2A2928;
   border-bottom: 1px solid #2A292831;
-  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,7 +20,6 @@
   align-items: center;
   justify-content: space-between;
   transition: all .5s linear;
-  overflow: hidden;
 }
 
 .header__container_left {

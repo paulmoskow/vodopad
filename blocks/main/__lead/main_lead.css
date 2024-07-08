@@ -1,0 +1,17 @@
+.main__lead {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 94vw;
+    max-width: 1280px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 640px){
+    .main__lead {
+      padding-top: 175px;   
+    }
+  }

@@ -4,7 +4,20 @@
 @import url('./blocks/page/page.css');
 
 @import url('./blocks/header/header.css');
+
 @import url('./blocks/main/main.css');
+@import url('./blocks/main/__container/main__container.css');
+@import url('./blocks/main/__lead/main_lead.css');
+@import url('./blocks/main/__title/main__title.css');
+@import url('./blocks/main/__subtitle/main__subtitle.css');
+@import url('./blocks/main/__navbar/main__navbar.css');
+@import url('./blocks/main/__button/main__button.css');
+@import url('./blocks/main/__button/_text/main__button_text.css');
+@import url('./blocks/main/__cards/main__cards.css');
+@import url('./blocks/main/__card/main__card.css');
+@import url('./blocks/main/__card/_icon/main__card_icon.css');
+@import url('./blocks/main/__card/_title/main__card_title.css');
+@import url('./blocks/main/__card/_text/main__card_text.css');
 
 @import url('./blocks/footer/footer.css');
 

@@ -1,0 +1,16 @@
+.main__navbar {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 50px;
+  gap: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .main__navbar {
+    margin-bottom: 25px;
+    max-width: 100%;
+    gap: 25px;
+  }
+}

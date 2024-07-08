@@ -1,0 +1,29 @@
+.main__container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000001f;
+    width: 100%;
+  }
+  
+  .main__container::before {
+    content: '';
+    position: absolute;
+    top: 71px;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url('../../../images/01green.jpg');  
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .main__container > * {
+    position: relative;
+    z-index: 1; 
+  }

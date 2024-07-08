@@ -1,0 +1,12 @@
+.main__button_text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 640px) {
+  .main__button_text {
+    font-size: .68rem;
+  }
+}
+

@@ -1,0 +1,25 @@
+.main__button {
+  background-color: #2A2928be;
+  border: 1px solid #2A292800;
+  border-radius: 10px;
+  width: 170px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .5s linear;
+  box-sizing: border-box;
+}
+  
+.main__button:hover {
+  border: 1px solid #ffffffbe;
+  opacity: .9;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 640px) {
+  .main__button {
+    width: 95px;
+  }
+}
