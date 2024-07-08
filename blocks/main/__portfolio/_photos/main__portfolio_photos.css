@@ -1,0 +1,7 @@
+.main__portfolio_photos {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(min-content, max-content)) auto;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  gap: 10px;
+}
+

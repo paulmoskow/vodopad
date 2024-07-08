@@ -1,0 +1,16 @@
+.main__portfolio_text {
+  margin: 0;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.21;
+  text-transform: uppercase;
+  text-align: center;
+  justify-self: center;
+  grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 640px) {
+  .main__portfolio_text {
+    font-size: .6rem;
+  }
+}

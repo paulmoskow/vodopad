@@ -1,0 +1,16 @@
+.main__about {
+  background-color: #B4BAB7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 65px 0;
+  border-top: 1px solid #00000021;
+}
+
+@media screen and (max-width: 640px) {
+  .main__about {
+    padding: 50px 0;
+  }
+}

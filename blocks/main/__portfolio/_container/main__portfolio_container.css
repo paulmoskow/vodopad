@@ -1,0 +1,13 @@
+.main__portfolio_container {
+  display: flex;
+  gap: 50px;
+  max-width: 95vw;
+  scroll-snap-type: y mandatory;
+}
+
+@media screen and (max-width: 640px) {
+  .main__portfolio_container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

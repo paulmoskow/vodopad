@@ -28,6 +28,8 @@
   }
 
   .main__card:hover {
-    transform: scale(1.02);
+/*    transform: scale(1.02);*/
+    transform: none;
+    border-color: #B4BA98;
   }  
 }

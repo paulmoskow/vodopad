@@ -1,20 +1,30 @@
+main {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-margin-top: 70px;
+  scroll-snap-align: start;
+}
+
 .page {
-    margin: 0;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100vw;
-    min-height: 100vh;
-    height: 100%;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .link {

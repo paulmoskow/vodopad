@@ -1,0 +1,9 @@
+.main__portfolio_photos-small {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 640px) {
+  .main__portfolio_photos-small {
+    margin: 0;
+  }  
+}
