@@ -1,12 +1,14 @@
 .main__subtitle {
     margin: 0;
-    color: #2A2928;
+    color: #505050;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.21;
     max-width: 800px;
     text-align: center;
     margin-bottom: 100px;
+    backdrop-filter: blur(2px);
+    border-radius: 50px;
   }
 
   @media screen and (max-width: 640px) {
