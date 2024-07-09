@@ -7,7 +7,7 @@
     max-width: 800px;
     text-align: center;
     margin-bottom: 100px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
     border-radius: 50px;
   }
 
