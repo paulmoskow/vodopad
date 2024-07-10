@@ -5,6 +5,24 @@
   line-height: 1.21;
 }
 
+@media screen and (max-width: 1180px) {
+  .main__card_title {
+    font-size: 1.35rem;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .main__card_title {
+    font-size: 1.21rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main__card_title {
+    font-size: 1.5rem;   
+  }
+}
+
 @media screen and (max-width: 640px) {
   .main__card_title {
     margin-bottom: 25px;

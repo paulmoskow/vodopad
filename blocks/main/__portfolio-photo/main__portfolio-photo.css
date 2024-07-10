@@ -1,41 +1,74 @@
 .main__portfolio-photo {
-    width: 170px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5px;
-    border: 1px solid #2A292831;
-    cursor: pointer;
-    transition: all .5s linear;
-  }
+  width: 158px;
+  height: 187px;  
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  border: 1px solid #2A292831;
+  cursor: pointer;
+  transition: all .5s linear;
+}
 
-  .main__portfolio-photo:hover {
-    transform: scale(1.1);
+.main__portfolio-photo:hover {
+  transform: scale(1.1);
+}
+
+.main__portfolio-photo_big {
+  grid-row: 1 / 3;
+  height: 301px;
+  width: 190px;
+}
+
+.main__portfolio-photo_small {
+  height: 145px;
+}
+
+@media screen and (max-width: 1180px) {
+  .main__portfolio-photo {
+    width: 144px;
+    height: 170px;
   }
 
   .main__portfolio-photo_big {
-    grid-row: 1 / 3;
-    height: 301px;
-    width: 190px;
+    height: 255px;
+    width: 161px;
   }
   
   .main__portfolio-photo_small {
-    height: 145px;
+    height: 121px;
+    width: 128px;
+  }
+}
+
+@media screen and (max-width: 1045px){
+  .main__portfolio-photo {
+    width: 189px;
+    height: 224px;  
+  }
+  
+  .main__portfolio-photo_big {
+    height: 361px;
+    width: 228px;
+  }
+  
+  .main__portfolio-photo_small {
+    height: 174px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main__portfolio-photo {
+    width: 144px;
+    height: 170px;
   }
 
-  @media screen and (max-width: 640px) {
-    .main__portfolio-photo {
-      width: 144px;
-      height: 170px;
-    }
-
-    .main__portfolio-photo_big {
-      height: 255px;
-      width: 161px;
-    }
-    
-    .main__portfolio-photo_small {
-      height: 121px;
-      width: 128px;
-    }
+  .main__portfolio-photo_big {
+    height: 255px;
+    width: 161px;
   }
+  
+  .main__portfolio-photo_small {
+    height: 121px;
+    width: 128px;
+  }
+}

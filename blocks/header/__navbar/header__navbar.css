@@ -4,7 +4,7 @@
   justify-content: center;
   transition: all .5s linear;
   padding: 1px 0;
-  gap: 5px;
+  gap: 10px;
 }
 
 .header__navbar-icon {

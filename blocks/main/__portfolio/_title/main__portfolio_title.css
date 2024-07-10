@@ -5,9 +5,14 @@
   line-height: 1.21;
 }
 
+@media screen and (max-width: 1045px){
+  .main__portfolio_title {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .main__portfolio_title {
     font-size: 1rem;
-    margin-bottom: 40px;
   }
 }

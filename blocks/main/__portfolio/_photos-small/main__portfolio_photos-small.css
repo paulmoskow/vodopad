@@ -2,8 +2,9 @@
   margin-top: 70px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1045px){
   .main__portfolio_photos-small {
+    order: 3;
     margin: 0;
-  }  
+  }    
 }

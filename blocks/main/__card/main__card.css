@@ -20,10 +20,32 @@
   border-color: #ffffffbe;
 }
 
+@media screen and (max-width: 1180px) {
+  .main__card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .main__card {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main__card {
+    width: 94vw;
+    max-width: 600px;
+    height: 350px;
+    padding: 40px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .main__card {
     width: 94vw;
-    height: 200px;
+    max-width: 450px;
+    height: 220px;
     padding: 20px 25px;
   }
 

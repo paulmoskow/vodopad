@@ -1,13 +1,24 @@
 .main__portfolio_container {
   display: flex;
-  gap: 50px;
-  max-width: 95vw;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  width: 95vw;
+  max-width: 1280px;
   scroll-snap-type: y mandatory;
+}
+
+@media screen and (max-width: 1045px) {
+  .main__portfolio_container {
+    flex-wrap: wrap;    
+  }    
 }
 
 @media screen and (max-width: 640px) {
   .main__portfolio_container {
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
   }
 }

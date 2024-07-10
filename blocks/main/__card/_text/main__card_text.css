@@ -5,9 +5,28 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 1180px) {
+  .main__card_text {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .main__card_text {
+    font-size: .82rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main__card_text {
+    font-size: 1rem;   
+  }
+}
+
 @media screen and (max-width: 640px) {
   .main__card_text {
     font-size: .75rem;
     font-weight: 400;
+    max-width: 300px;
   }  
 }

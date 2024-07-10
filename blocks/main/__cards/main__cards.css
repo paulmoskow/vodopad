@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 50px 0;
+  padding: 50px 20px;
   width: 100%;
   overflow: hidden;
   margin-bottom: 40px;
@@ -11,7 +11,8 @@
   transition: all .5s linear;
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 960px) {
   .main__cards {
     flex-direction: column;
     align-items: center;
