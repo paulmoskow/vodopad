@@ -4,6 +4,11 @@
 @import url('./blocks/page/page.css');
 
 @import url('./blocks/header/header.css');
+@import url('./blocks/header/__container/header__container.css');
+@import url('./blocks/header/__logo/header__logo.css');
+@import url('./blocks/header/__phone/header__phone.css');
+@import url('./blocks/header/__lang/header__lang.css');
+@import url('./blocks/header/__navbar/header__navbar.css');
 
 @import url('./blocks/main/main.css');
 @import url('./blocks/main/__container/main__container.css');

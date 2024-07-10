@@ -1,0 +1,43 @@
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 165px;
+}
+
+.header__logo_image {
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../images/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .5s linear;
+}
+
+.header__logo_text {
+  width: 118px;
+  height: 17px;
+  background-image: url('../../../images/vodopad.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .5s linear;
+}
+
+@media screen and (max-width: 640px) {
+  .header__logo {
+    margin-bottom: 10px;    
+    width: 134px;
+  }
+
+  .header__logo_image {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .header__logo_text {
+    width: 95px;
+    height: 17px;
+  }
+}

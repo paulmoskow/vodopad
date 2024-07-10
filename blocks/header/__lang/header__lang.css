@@ -1,0 +1,31 @@
+.header__lang {
+  color: #505050;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 10px;
+  transition: all .5s linear;
+  position: relative;
+}
+
+.header__lang:hover::after {
+  content: attr(data-lang);
+  position: absolute;
+  top: 25px;
+  left: -75px;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  color: #000;
+  font-size: .7rem;
+  padding: 10px;
+  line-height: 1.21;
+  width: 130px;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .header__lang:hover::after {
+    left: -130px;    
+  } 
+}
+

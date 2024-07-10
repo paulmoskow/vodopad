@@ -1,0 +1,44 @@
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s linear;
+  padding: 1px 0;
+  gap: 5px;
+}
+
+.header__navbar-icon {
+  width: 31px;
+  height: 30px;
+  object-position: center;
+  object-fit: contain;
+  margin: 0; 
+  vertical-align: middle;
+  transition: all .5s linear;
+}
+
+.header__navbar:hover::after {
+  content: attr(data-contact);
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  color: #000;
+  font-size: .7rem;
+  padding: 10px;
+  line-height: 1.21;
+  width: 160px;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .header__navbar {
+    margin-top: 20px;
+  }
+
+  .header__navbar:hover::after {
+    top: 75px;
+    width: 140px;
+  }
+}
