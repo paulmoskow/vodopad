@@ -10,13 +10,16 @@
   }
 }
 
+html {
+  scroll-padding-top: 70px; 
+}
+
 main {
   scroll-snap-type: y mandatory;
 }
 
-section {
-  scroll-margin-top: 70px;
-  scroll-snap-align: start;
+.main__container {
+  scroll-snap-type: y mandatory;
 }
 
 .page {

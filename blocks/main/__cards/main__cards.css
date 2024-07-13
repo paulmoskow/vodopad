@@ -9,6 +9,8 @@
   box-sizing: border-box;
   gap: 30px;
   transition: all .5s linear;
+  position: relative;
+  scroll-snap-type: y mandatory;
 }
 
 
