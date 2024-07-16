@@ -10,7 +10,7 @@
 }
 
 .main__portfolio-photo:hover {
-  transform: scale(1.3);
+  transform: scale(1.8);
 }
 
 .main__portfolio-photo_big {
@@ -60,6 +60,7 @@
   .main__portfolio-photo {
     width: 144px;
     height: 170px;
+    transform: scale(1.3);
   }
 
   .main__portfolio-photo_big {
