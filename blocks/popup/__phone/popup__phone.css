@@ -1,0 +1,21 @@
+.popup__phone {
+  font-size: .9rem;
+  font-weight: 500;
+  color: #000;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .popup__phone {
+    font-size: .8rem;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .popup__phone {
+    font-size: .75rem;
+  }
+}

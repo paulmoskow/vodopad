@@ -1,0 +1,8 @@
+.popup__button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  font-size: .75rem;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1B1918d0;
+  z-index: 3;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_opened {
+  display: flex; 
+}

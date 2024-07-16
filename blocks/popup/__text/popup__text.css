@@ -1,0 +1,21 @@
+.popup__text {
+  grid-row: 2/4;
+  grid-column: 2;
+  margin: 0;
+  font-size: .8rem;
+  width: 225px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 960px) {
+  .popup__text {
+    width: 100%;
+  }  
+}
+
+@media screen and (max-width: 640px) {
+  .popup__text {
+    font-size: .7rem;
+    line-height: 1.21;
+  }
+}

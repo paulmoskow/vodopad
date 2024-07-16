@@ -29,6 +29,12 @@
     margin: 5px;
     font-size: .9rem;
     line-height: 2;
-    letter-spacing: 1px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header__phone {
+    font-size: .8rem;
   }
 }

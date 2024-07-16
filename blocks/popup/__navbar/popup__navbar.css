@@ -1,0 +1,16 @@
+.popup__navbar {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  margin-right: 20px;
+}
+
+.popup__navbar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s linear;
+  padding: 1px 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.popup__info {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  gap: 30px 30px;
+  justify-content: center;  
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 960px) {
+  .popup__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    gap: 20px;
+  }  
+}
