@@ -2,6 +2,7 @@
   width: 70vw;
   max-width: 1140px;
   height: 480px;
+  max-height: 98vh;
   background-color: #B4BA98;
   border-radius: 10px;
   z-index: 4;
