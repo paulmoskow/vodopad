@@ -45,7 +45,7 @@
     width: 189px;
     height: 224px;  
   }
-  
+
   .main__portfolio-photo_big {
     height: 361px;
     width: 228px;
@@ -60,6 +60,9 @@
   .main__portfolio-photo {
     width: 144px;
     height: 170px;
+  }
+
+  .main__portfolio-photo:hover {
     transform: scale(1.3);
   }
 
