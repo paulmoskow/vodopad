@@ -8,7 +8,7 @@
 }
 
 .header__container_left {
-  min-width: calc(100% - 180px);
+  min-width: calc(100% - 230px);
   display: flex;
   align-items: center;
   justify-content: space-between;

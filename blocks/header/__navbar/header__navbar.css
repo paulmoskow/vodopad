@@ -7,6 +7,15 @@
   gap: 10px;
 }
 
+.header__navbar_lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s linear;
+  padding: 1px 15px;
+  gap: 10px;
+}
+
 .header__navbar-icon {
   width: 31px;
   height: 30px;
