@@ -24,6 +24,42 @@ const cardData = [
     title: 'Проектирование',
     image: './images/05landscape.jpg',
     text: 'Перед тем, как начать работу над проектом, проводится тщательное исследование участка. Необходимо определить его особенности, такие как рельеф, тип почвы, уровень грунтовых вод, климатические условия и ориентацию по сторонам света. Это поможет  выбрать наиболее подходящие материалы и решения для создания гармоничного ландшафта.'
+  },
+  {
+    id: 'green_en',
+    title: 'Landscaping Projects',
+    image: './images/05green.jpg',
+    text: 'Selection and acquisition of seedlings that will thrive in your climate, planting of trees and shrubs, planting of perennial plants, creating flower beds and gardens, and laying rolled turf on prepared soil.'
+  },
+  {
+    id: 'water_en',
+    title: 'Irrigation Systems',
+    image: './images/04water.jpg',
+    text: 'The automatic irrigation system ensures optimal and even watering. This not only enhances the aesthetic appearance of the garden but also reduces water and garden maintenance costs, and increases crop yields. The system consists of a network of pipes, sprinklers, drip lines, valves, wiring, a controller, and various additional devices such as rain sensors or water sockets.'
+  },
+  {
+    id: 'project_en',
+    title: 'Landscape Designs',
+    image: './images/05landscape.jpg',
+    text: 'Before starting work on the project, a thorough site survey is conducted. It is necessary to determine its characteristics, such as terrain, soil type, groundwater level, climatic conditions, and orientation to the cardinal directions. This will help in selecting the most suitable materials and solutions for creating a harmonious landscape.'
+  },
+  {
+    id: 'green_cg',
+    title: 'Projekti ozelenjavanja',
+    image: './images/05green.jpg',
+    text: 'Izbor i nabavka sadnica koje će se dobro prilagoditi vašoj klimi, sadnja drveća i žbunja, sadnja višegodišnjih biljaka, kreiranje leja i cvetnih vrtova, kao i postavljanje travnjaka na pripremljeno tlo.'
+  },
+  {
+    id: 'water_cg',
+    title: 'Sistemi za navodnjavanje',
+    image: './images/04water.jpg',
+    text: 'Sistem automatskog zalivanja omogućava postizanje optimalnog i ravnomernog navodnjavanja. To ne samo da poboljšava estetski izgled vrta, već i smanjuje troškove vode i usluga održavanja vrta, kao i povećava prinos. Automatski sistem zalivanja se sastoji od mreže cevi, prskalica, kapajućih linija, ventila, ožičenja, kontrolera i raznih dodatnih uređaja, kao što su senzori za kišu ili vodene utičnice.'
+  },
+  {
+    id: 'project_cg',
+    title: 'Pejzažni projekti',
+    image: './images/05landscape.jpg',
+    text: 'Pre nego što se započne rad na projektu, sprovodi se detaljno istraživanje terena. Potrebno je utvrditi njegove karakteristike, kao što su reljef, tip zemljišta, nivo podzemnih voda, klimatski uslovi i orijentacija prema stranama sveta. Ovo će pomoći u odabiru najprikladnijih materijala i rešenja za stvaranje harmoničnog pejzaža.'
   }
 ];
 
